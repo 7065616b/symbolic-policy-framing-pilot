@@ -1,0 +1,42 @@
+{
+  "status": "invented normalized inputs; direct arithmetic only",
+  "simplerExpression": "temp+stress*stress*stress",
+  "a2Expression": "temp+(0.5*(soc*imped)+stress*stress*stress)",
+  "rows": [
+    {
+      "module": "P",
+      "temp": "0.6",
+      "soc": "0.2",
+      "imped": "0.2",
+      "stress": "0.8",
+      "simplerScore": "1.112",
+      "addedProduct": "0.020",
+      "a2Score": "1.132"
+    },
+    {
+      "module": "Q",
+      "temp": "0.6",
+      "soc": "0.8",
+      "imped": "0.8",
+      "stress": "0.7",
+      "simplerScore": "0.943",
+      "addedProduct": "0.320",
+      "a2Score": "1.263"
+    }
+  ],
+  "QminusP": {
+    "simpler": "-0.169",
+    "addedProduct": "0.300",
+    "a2": "0.131"
+  },
+  "pairwiseChoices": {
+    "simpler": "P",
+    "A2": "Q"
+  },
+  "limits": [
+    "Scores are not rewards.",
+    "This is not a sampled trace or full four-module environment run.",
+    "The added product is supplied in H; both rules already contain cubic stress.",
+    "No better real-world action, safety, or source-domain causation is established."
+  ]
+}
