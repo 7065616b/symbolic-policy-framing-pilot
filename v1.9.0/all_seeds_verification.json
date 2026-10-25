@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "policySeedPairs": 2400,
+  "referenceSeeds": 600,
+  "comparisonSeedPairs": 1800,
+  "maxSavedError": 0,
+  "maxObserverError": 0,
+  "maxAccountingResidual": 2.787700625894729e-15,
+  "firstDifferenceRecords": 1800,
+  "firstStatesIdentical": true,
+  "switchIdentitiesVerified": true,
+  "policySteps": 768000,
+  "floorClippedSteps": 0,
+  "newModelCalls": 0,
+  "newSeeds": 0,
+  "newIndependentObservations": 0,
+  "analysisProtocolSha256": "33dddc1b7fda6ae75639e6b271bcff6625cdc80556206f6f89a73de41c6a60e9"
+}
