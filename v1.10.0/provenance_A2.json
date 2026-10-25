@@ -1,0 +1,26 @@
+{
+  "case": "A2",
+  "session": "pilot-Thermal-05-X_ROLE",
+  "slot": 10,
+  "originalPrompt": "public_supplement/data/prompts/pilot-Thermal-05-X_ROLE.json",
+  "promptSha256": "08cd4d306b3fcdc1d5eeeef7d0d602fb94fe5fa399b7edc17492b35fae7c8c06",
+  "supplied": [
+    "Biological immune-adaptation and HCI reframing guidance",
+    "Minimalist industrial-design and within-response exploration/simplicity roles",
+    "Task facts, grammar, complexity limits, normalized variables",
+    "Initial mathematical hints: temperature, soc*imped, max(stress-0.5,0)",
+    "Earlier session outputs and numeric feedback"
+  ],
+  "observedGenerated": [
+    "Temperature and product retained; product coefficient 0.5",
+    "Supplied stress threshold omitted and stress*stress*stress used",
+    "Round 3 slot 9 already contains product coefficient 1 and cubic stress; final round changes coefficient to 0.5 after feedback"
+  ],
+  "notEstablished": [
+    "A causal biological/HCI-to-cubic mapping",
+    "Model internal rationale or an observed compression process",
+    "Cubic mathematical novelty or exclusivity to cross-domain conditions",
+    "Practical utility, safety or execution-cost reduction"
+  ],
+  "clarification": "Generated differences are relative to initial hints and recorded earlier outputs. The cubic term was already in the preceding response/feedback, not newly discovered in the final round."
+}

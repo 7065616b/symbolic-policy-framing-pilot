@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "configurations": 36,
+  "savedPolicySeeds": 2400,
+  "referenceSeeds": 600,
+  "directWeightedChecks": 86400,
+  "comparisonRows": 64800,
+  "maxSavedError": 0,
+  "maxDirectWeightedError": 0,
+  "newModelCalls": 0,
+  "newPolicies": 0,
+  "newSeeds": 0,
+  "newIndependentObservations": 0,
+  "protocolSha256": "731850d4f02f8ee9937e25505158697a2a726ae27e4994027451f8034d2b0657"
+}
