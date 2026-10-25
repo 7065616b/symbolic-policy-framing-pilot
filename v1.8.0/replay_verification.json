@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "policySeedPairs": 2400,
+  "referenceSeeds": 600,
+  "stepsPerTrace": 320,
+  "maxSavedAbsoluteError": 0,
+  "maxInstrumentationAbsoluteError": 0,
+  "distinctExistingSeeds": 600,
+  "newModelCalls": 0,
+  "newSeeds": 0,
+  "independentNewObservations": 0,
+  "illustrationPairs": 6,
+  "firstDivergenceStatesIdentical": true,
+  "sourceHashesVerified": true,
+  "selectionRule": "For each comparator, smallest saved base seed with margin > 1e-12, and smallest with margin < -1e-12; then first differing action. Preserve opposite immediate and final signs if present. Retrospective sign-conditioned examples, not representative or confirmatory."
+}
